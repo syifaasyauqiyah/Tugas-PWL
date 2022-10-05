@@ -1,0 +1,45 @@
+.Button {
+    background: #256D85;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    height: 20%;
+    min-width: 25%;
+}
+
+.Button[data-size="2"] {
+    height: 40%;
+}
+
+.Button[data-value="null"] {
+    pointer-events: none;
+}
+
+.Button:hover {
+    background: #06283D;
+    cursor: default;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin-top: 18%;
+    margin-left: 48%;
+}
+
+.text_kategori{
+    color: #06283D;
+    padding: 1%;
+    margin-left: -11px;
+}
+
